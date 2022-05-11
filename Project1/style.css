@@ -1,5 +1,8 @@
-body{
-  margin: 50px
+/*This is for all pages*/
+html, body {
+  height: 99%;
+  width: 99%;
+  margin: 10px
 }
 
 h1{
@@ -27,6 +30,8 @@ footer a:hover {
 color: green;
 }
 
+
+/*This is for index page*/
 #mainpara{
   border-style: solid;
   border-width: 2px;
@@ -39,21 +44,24 @@ color: green;
   font-size: 17px;
 }
 
-container{
-display: flex;
-align-items: center;
-justify-content: center;
-}
-img{
-  max-width: 100%
-}
-.img-col{
-  flex-basis: 40%
-}
-.container > div{
-  flex-basis: 50%;
+#mainpara img {
+  border: 3px solid #8922b9;
 }
 
-.icel{
-  float: right;
+
+/*this is  for the alignment of the boxes in the northerlights and hiking page */
+.box{
+  float: left;
+  text-align: center;
+  margin: 1%;
+  width: 30%;
+}
+
+/*this is  for the contact page */
+th {
+  background-color: #a3ffc3;
+}
+
+.cost{
+  border: solid;
 }
