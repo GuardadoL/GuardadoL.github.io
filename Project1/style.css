@@ -61,6 +61,7 @@ color: green;
 .skyimg img{
   width: 100%;
   box-sizing: border-box;
+  max-width: 300px;
 }
 
 .waterfall{
@@ -73,6 +74,7 @@ color: green;
 .waterfall img{
   width: 100%;
   box-sizing: border-box;
+  max-width: 300px;
 }
 
 .waterfall p {
