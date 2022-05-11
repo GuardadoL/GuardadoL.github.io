@@ -40,7 +40,9 @@ color: green;
   background-color: pink;
   color: white;
   height: 620px;
+  padding: 0px 60px 40px 60px;
 }
+
 #mainpara p {
   font-size: 17px;
 }
@@ -53,7 +55,7 @@ color: green;
   width: 30%;
   box-sizing: border-box;
   float: left;
-  margin: 0px 60px 0px 60px;
+  margin: 0px 60px 0px 0px;
 }
 
 .skyimg img{
@@ -65,7 +67,7 @@ color: green;
   width: 30%;
   box-sizing: border-box;
   float: right;
-  margin: 0px 60px 0px 60px;
+  margin: 0px 0px 0px 60px;
 }
 
 .waterfall img{
