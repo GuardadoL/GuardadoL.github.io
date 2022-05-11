@@ -39,6 +39,7 @@ color: green;
   position: relative;
   background-color: pink;
   color: white;
+  height: 620px;
 }
 #mainpara p {
   font-size: 17px;
@@ -48,6 +49,33 @@ color: green;
   border: 3px solid #8922b9;
 }
 
+.skyimg{
+  width: 30%;
+  box-sizing: border-box;
+  float: left;
+  margin: 0px 60px 0px 60px;
+}
+
+.skyimg img{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.waterfall{
+  width: 30%;
+  box-sizing: border-box;
+  float: right;
+  margin: 0px 60px 0px 60px;
+}
+
+.waterfall img{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.waterfall p {
+  float: right;
+}
 
 /*this is  for the alignment of the boxes in the northerlights and hiking page */
 .box{
