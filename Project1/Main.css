@@ -7,7 +7,6 @@ h1{
 }
 
 footer {
-background-color: rgb(102, 153, 204);
 height: 90px;
 display: flex;
 justify-content: center;
@@ -53,4 +52,8 @@ img{
 }
 .container > div{
   flex-basis: 50%;
+}
+
+.icel{
+  float: right;
 }
