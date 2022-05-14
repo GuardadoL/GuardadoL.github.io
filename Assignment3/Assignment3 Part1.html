@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Assignment3 by Luis Guardado</title>
+  <link rel="stylesheet" href="style.css">
+  <<style media="screen">
+    body{
+      background-image: url(matrix.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .matrix{
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: auto;
+      z-index: -1;
+    }
+  </style>
+
+</head>
+<body>
+  <h1>Make a choice</h1>
+<img class="matrix" src="pills.jpg"/>
+
+    <div class="redpill">
+      <a href="#redpill">Take the Red Pill</a>
+    </div>
+
+    <div class="bluepill">
+      <a href="#bluepill">Take the Blue Pill</a>
+    </div>
+
+  <!-- Red Pill Modal Window-->
+  <div class="mdlwindow" id="redpill">
+    <div class="messagebox">
+      <h5>See how far the rabbit hole goes</h5>
+      <p>The red pill is described as the solution for knowing the real truth in life. Morpheus explains it as continuing into the "rabbit hole" or in other words, continuing to learn about the lies ethat were set in the world in order to break them and obtain freedom.</p>
+      <img src="red.png" alt="red"><br><br>
+      <a href="#">close</a>
+    </div>
+  </div>
+
+  <!-- Blue Pill Modal Window-->
+
+  <div class="mdlwindow" id="bluepill">
+    <div class="messagebox">
+      <h5>Returning to the</h5>
+      <h5 style="line-height: 00.001">"real world"</h5>
+      <p>The blue pill describes a continuity of the current state of life i.e. living life without knowing its meaning or running away from the truth in order to stay as is. In the movie, Morpheus, a major character, describes it as waking up in bed without caring for your "destiny" or such profound ideas.</p>
+      <img src="blue.png" alt="blue" width="500px"><br><br>
+      <a href="#">close</a>
+    </div>
+  </div>
+
+    <div id="bootstrap">
+      <a href="bootstrap.html"> Click here for Bootstrap</a>
+    </div>
+
+</body>
+</html>
