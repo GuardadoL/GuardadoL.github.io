@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Project2 by Luis Guardado</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container my-5">
+ <header>
+   <h1><img src="images/logo.png" alt="LAF Logo">Luis's Athletic Footware</h1>
+    <h4>Your #1 Source for the trendiest footware fashion </h4>
+ </header>
+
+  <!--This is the spinning header for the slideshow-->
+  <h2 id="spinner">What's New</h2>
+  <!--This is the slideshow-->
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/j1.jpg" style="width:100%">
+        <div class="text">The Classic Air Jordan 1 Returns in 2022</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="images/samba.jpg" style="width:100%">
+        <div class="text">Why are these Sambas the hottest sneaker this year</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="images/TEDDY.jpg" style="width:100%; height:500px">
+        <div class="text">Creative Director Teddy Santis of New Balance releases teaser of upcoming line</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="images/yeezy.jpg" style="width:100%; height:500px">
+        <div class="text">Kanye's Insperation behind the Zebra 350's</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="images/teddys.png" style="width:100%; height:500px">
+        <div class="text">Coming Soon</div>
+      </div>
+    </div>
+  <br> 
+  <!--This is the slideshow bullets-->
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <hr>
+    <!--This is the Nike row-->
+      <main>
+        <h2 id="spinner"><img src="images/svgnike.png"></h2>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <!--This is for the jordan 1-->
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">AIR JORDAN 1 RETRO HIGH OG 'CHICAGO'</h4>
+                </div>
+                <div class="card-body">
+                   <img src="images/1.jpg" alt="AJ1" class="img-thumbnail">
+                  <h1 class="card-title pricing-card-title">$190</h1>
+                  <p class="about">ABOUT THIS PRODUCT:</p>
+                  <p>The Air Jordan 1 Retro High OG 'Chicago' 2015
+                    colorway features full-leather uppers in Bulls team
+                    colors. The 'Chicago' was first retroed in 1994 and
+                    stayed true to the 1985 design. Further retros were
+                    released in 2013 with small changes to the design,
+                    and again in 2015 with the original branding
+                    details: the Nike Air logo on the tongue and the
+                    original clean heel without the Jumpman logo.</p>
+                  <p>style code: 555088 101 | white/black-varsity red</p>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary"data-toggle="modal" data-target="#aj1">Add to cart</button>
+                  <div class="container">
+                      <!-- Modal -->
+                      <div class="modal" id="aj1" role="dialog">
+                        <div class="modal-dialog">
+
+                          <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Added to cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="images/1.jpg" alt="AJ1" class="w-2rounded float-left">
+                                        <p>AIR JORDAN 1 RETRO HIGH OG 'CHICAGO'</p>
+                                        <p><strong>Total: $190</strong></p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!--This is for the Nike Dunk-->
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">NIKE DUNK LOW 'PANDA'</h4>
+                </div>
+                <div class="card-body">
+                  <img src="images/panda.jpg" alt="black white panda low" class="img-thumbnail">
+                  <h1 class="card-title pricing-card-title">$100</h1>
+                  <p class="about">ABOUT THIS PRODUCT:</p>
+                  <p>The Dunk Low 'Black White' brings a classic two-tone look to its classic
+                    basketball construction. The shoe's low-top build emerges in leather, 
+                    with a white base   contrasted by black overlays, with further black on
+                    the Swoosh branding. Perforations on the   toe box provide breathability, 
+                    while underfoot, the two-tone look is matched by the tooling, which 
+                    incorporates a concentric rubber outsole for traction.</p>
+                  <p>style code: style code | dd1391 100 | white/black/white</p>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary"data-toggle="modal" data-target="#panda">Add to cart</button>
+                  <div class="container">
+                      <!-- Modal -->
+                      <div class="modal" id="panda" role="dialog">
+                        <div class="modal-dialog">
+
+                          <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Added to cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="images/panda.jpg" alt="black white panda low" class="w-2rounded float-left">
+                                        <p>NIKE DUNK LOW 'PANDA'</p>
+                                        <p><strong>Total: $100</strong></p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!--This is for the jordan x Union 2-->
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">UNION LA X AIR JORDAN 2 RETRO SP 'RATTAN'</h4>
+                </div>
+                <div class="card-body">
+                  <img src="images/union.jpg" alt="Jordan Union 2 Rattan" class="img-thumbnail">
+                  <h1 class="card-title pricing-card-title">$230</h1>
+                  <p class="about">ABOUT THIS PRODUCT:</p>
+                  <p>The iconic silhouette returns with a tan textile upper and tonal suede overlays. The Union LA x Air                        Jordan 2 Retro 'Rattan.' An amber underlay is revealed through perforated detailing on the quarter panel that matches the molded eyelets and an attached 'UN/LA' tag.The lateral collar is a retro Wings logo with a cream-colored polyurethane midsole with an Air-sole cushioning on underneath.</p>
+                  <p>style code: dn3802 200 | rattan/siren red/beach/orange peel</p>
+                  <button type="button" class="w-100 btn btn-lg btn-outline-primary"data-toggle="modal" data-target="#rattan">Add to cart</button>
+                  <div class="container">
+                      <!-- Modal -->
+                      <div class="modal" id="rattan" role="dialog">
+                        <div class="modal-dialog">
+
+                          <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Added to cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="images/union.jpg" alt="AJ1" class="w-2rounded float-left">
+                                        <p>UNION LA X AIR JORDAN 2 RETRO SP 'RATTAN'</p>
+                                        <p><strong>Total: $230</strong></p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+<hr>
+    <!--This is the Adidas yeezy row-->
+    <main>
+      <h2 id="spinner"><img src="images/yzy.png"></h2>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <!--This is for the WaveRunner-->
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">YEEZY BOOST 700 'WAVE RUNNER'</h4>
+          </div>
+          <div class="card-body">
+             <img src="images/wave.jpg" alt="Yeezy Wave Runners" class="img-thumbnail">
+            <h1 class="card-title pricing-card-title">$300</h1>
+            <p class="about">ABOUT THIS PRODUCT:</p>
+            <p>This first colorway of Yeezy Wave Runner 700 from Kanye West was introduced in November 2017, following an initial public opening in the Yeezy Season 5 fashion show previously that year. The retro-inspired lines of the sneaker worked together with a chunky silhouette reminiscent of a previous age. A mesh base on the quarter panel is completed in gray and a yellow with a teal forefoot.</p>
+            <p>style code: b75571 | solid grey/chalk white/core black</p>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary"data-toggle="modal" data-target="#waves">Add to cart</button>
+                  <div class="container">
+                      <!-- Modal -->
+                      <div class="modal" id="waves" role="dialog">
+                        <div class="modal-dialog">
+
+                          <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Added to cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="images/wave.jpg" alt="AJ1" class="w-2rounded float-left">
+                                        <p>YEEZY BOOST 700 'WAVE RUNNER'</p>
+                                        <p><strong>Total: $300</strong></p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+          </div>
+        </div>
+      </div>
+
+      <!--This is for the 350v2-->
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">YEEZY BOOST 350 V2 'ZEBRA'</h4>
+          </div>
+          <div class="card-body">
+            <img src="images/zeebra.jpg" alt="Yeezy Zeebra" class="img-thumbnail">
+            <h1 class="card-title pricing-card-title">$220</h1>
+            <p class="about">ABOUT THIS PRODUCT:</p>
+            <p>The Yeezy Boost 350 V2 'Zebra' released on February 25, 2017, combining an upper white / core black Primeknit with a red SPLY 350 branding and a full-length translucent midsole boost. On November 16, 2018 and April 9th, 2022, restocks of the ' Zebra ' arrived, with more pairs hitting the marketplace and building on Kanye's commitment to make Yeezy more available to anyone who wished to acquire them.</p>
+            <p>style code: cp9654 | white/core black/red</p>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary"data-toggle="modal" data-target="#350v2">Add to cart</button>
+                  <div class="container">
+                      <!-- Modal -->
+                      <div class="modal" id="350v2" role="dialog">
+                        <div class="modal-dialog">
+
+                          <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Added to cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="images/zeebra.jpg" alt="AJ1" class="w-2rounded float-left">
+                                        <p>YEEZY BOOST 350 V2 'ZEBRA'</p>
+                                        <p><strong>Total: $220</strong></p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+          </div>
+        </div>
+      </div>
+
+      <!--This is for the Sambas-->
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">SAMBA VEGAN 'WHITE GUM'</h4>
+          </div>
+          <div class="card-body">
+            <img src="images/samba1.jpg" alt="adidas sambas" class="img-thumbnail">
+            <h1 class="card-title pricing-card-title">$85</h1>
+            <p class="about">ABOUT THIS PRODUCT:</p>
+            <p>First introduced as an indoor soccer shoe, the adidas Samba has gone on to cover expansive ground. After their time on the field, these shoes made their mark on stages and streets across the globe. Today they look toward a more conscious future. Done up in faux leather, the revamped icon has eliminated any usage of animal based materials. The look is exactly the same as the original, right down to the famous T-toe.</p>
+            <p>style code: h01877 | cloud white/core black/gum</p>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary"data-toggle="modal" data-target="#adsam">Add to cart</button>
+                  <div class="container">
+                      <!-- Modal -->
+                      <div class="modal" id="adsam" role="dialog">
+                        <div class="modal-dialog">
+
+                          <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Added to cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="images/samba1.jpg" alt="AJ1" class="w-2rounded float-left">
+                                        <p>SAMBA VEGAN 'WHITE GUM'</p>
+                                        <p><strong>Total: $85</strong></p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<hr>
+    <!--This is the New Balance row-->
+    <main>
+      <h2 id="spinner"><img src="images/nb1.png"></h2>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <!--This is for the JJJound990v3-->
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">JJJJOUND X 990V3 MADE IN USA 'OLIVE'</h4>
+          </div>
+          <div class="card-body">
+             <img src="images/jjjoundv3.jpg" alt="jjjoundv3olive" class="img-thumbnail">
+            <h1 class="card-title pricing-card-title">$250</h1>
+            <p class="about">ABOUT THIS PRODUCT:</p>
+            <p>In collaboration with designer Justin Saunders in the third iteration of the vaunted 990 series is the JJJJound x New Balance 990v3 Made In USA 'Olive.' The upper is made from breathable mesh with soft pigskin suede overlays and is permeated with rich olive green hues. A black 'N' logo is featured on the quarter panel, while 'JJJJound' is inscribed on the reflective silver heel tab. It's built on New Balance's ENCAP midsole with a plush EVA core and a polyurethane rim.</p>
+            <p>style code: m990jd3 | olive</p>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary"data-toggle="modal" data-target="#jjj">Add to cart</button>
+                  <div class="container">
+                      <!-- Modal -->
+                      <div class="modal" id="jjj" role="dialog">
+                        <div class="modal-dialog">
+
+                          <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Added to cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="images/jjjoundv3.jpg" alt="jjjol" class="w-2rounded float-left">
+                                        <p>JJJJOUND X 990V3 MADE IN USA 'OLIVE'</p>
+                                        <p><strong>Total: $250</strong></p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+          </div>
+        </div>
+      </div>
+
+      <!--This is for the protectionpack-->
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">2002R 'PROTECTION PACK - RAIN CLOUD'</h4>
+          </div>
+          <div class="card-body">
+            <img src="images/pack.jpg" alt="Protectionpack" class="img-thumbnail">
+            <h1 class="card-title pricing-card-title">$150</h1>
+            <p class="about">ABOUT THIS PRODUCT:</p>
+            <p>The 2002R 'Protection Pack - Rain Cloud' released as part of the Protection Pack, a three-shoe collection. The shoe's lifestyle running construction emerges with a greyscale design, built with a mesh base and overlaid by raw-edged suede, designed to look like it's been worn away. The tongue sports exposed foam to further play to the look, while underfoot, a distressed Abzorb midsole offers cushioning, giving way to an N-ergy outsole for traction.</p>
+            <p>style code: m2002rda | rain cloud/magnet </p>
+            <br>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary"data-toggle="modal" data-target="#2002r">Add to cart</button>
+                  <div class="container">
+                      <!-- Modal -->
+                      <div class="modal" id="2002r" role="dialog">
+                        <div class="modal-dialog">
+
+                          <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Added to cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="images/pack.jpg" alt="2002R RAIN CLOUD" class="w-2rounded float-left">
+                                        <p>2002R 'PROTECTION PACK - RAIN CLOUD'</p>
+                                        <p><strong>Total: $150</strong></p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+          </div>
+        </div>
+      </div>
+
+      <!--This is for the ALD 550-->
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">AIMÉ LEON DORE X 550 'GREEN YELLOW'</h4>
+          </div>
+          <div class="card-body">
+            <img src="images/ald.jpg" alt="Aime Leon Dore 550" class="img-thumbnail">
+            <h1 class="card-title pricing-card-title">$130</h1>
+            <p class="about">ABOUT THIS PRODUCT:</p>
+            <p>Part of a larger capsule collection, the Aimé Leon Dore x 550 'Green Yellow' was made with the help of the New York menswear label. The late 80s basketball shoe features a white leather construction on the upper, accented by green on the tongue, quarter panel and heel and highlighted by yellow on the 'N' branding. The woven tongue tag and left heel include Aimé Leon Dore branding, while underfoot, a pre-yellowed midsole gives way to a multicolor rubber outsole for traction.</p>
+            <p>style code: bb550a2 | green/yellow</p>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary"data-toggle="modal" data-target="#ALD550">Add to cart</button>
+                  <div class="container">
+                      <!-- Modal -->
+                      <div class="modal" id="ALD550" role="dialog">
+                        <div class="modal-dialog">
+
+                          <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Added to cart</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <img src="images/ald.jpg" alt="ald550" class="w-2rounded float-left">
+                                        <p>AIMÉ LEON DORE X 550 'GREEN YELLOW'</p>
+                                        <p><strong>Total: $130</strong></p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <hr>
+
+
+      
+<!-- This is for the footer -->
+<div class="container my-5">
+  <footer class="text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="text-center col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">HELP
+            </h6>
+            <p>
+              <a href="#" class="text-white">Customer Service</a>
+            </p>
+            <a href="#" class="text-white">Live Chat</a>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="text-center col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">ACCOUNT</h6>
+            <p>
+              <a href="#" class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a href="#" class="text-white">Order Status</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="text-center col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Subscribe</h6>
+            <p><a class="text-white fas fa-envelope mr-3" href="mailto:LuisGuar21@Gmail.com">Email Us</a></p>
+            <p><i class="fas fa-phone mr-3"></i> (718) 123-5555</p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="text-center col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">The member card</h6>
+              <p>
+              <a href="#" class="text-white">Customer Service</a>
+            </p>
+            <a href="#" class="text-white">Live Chat</a>
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2022 Copyright:
+      <a class="text-white" href="#"
+         >Project 2 By Luis Guardado</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+      
+    
+  
+   <script src="script.js"></script>
+</body>
+
+</html>
